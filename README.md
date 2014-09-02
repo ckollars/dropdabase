@@ -1,5 +1,5 @@
 # DROP-DA-BASE
-My personal initial directory setup, style guide and patterns. Intended as a starting point for my own prjects. 
+My personal "Base" setup for initial directories, style guide and reusable patterns. Intended as a starting point for my own prjects. 
 
 NOTE: This is still a VERY large work in progress. 
 
