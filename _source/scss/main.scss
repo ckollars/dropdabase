@@ -1,0 +1,12 @@
+// Dependcies
+@import "../app/_bower_components/bourbon/dist/bourbon";
+
+// NOTE: Uncomment and add the neat settings if you go with NEAT as a grid framework.
+// Reference: http://culttt.com/2013/12/09/adding-bourbon-and-bourbon-neat-with-bower/
+// @import "vendor/neat-settings";
+// @import "../app/_bower_components/neat/app/assets/stylesheets/neat";
+
+@import "utilities/helpers";
+
+// Layouts
+@import "pages/home";
