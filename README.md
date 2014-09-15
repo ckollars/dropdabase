@@ -3,6 +3,11 @@ My personal "Base" setup for initial directories, style guide and reusable patte
 
 NOTE: This is still a VERY large work in progress. 
 
+# To-Do
+
+* Add grunt scss lint to repo, https://github.com/ahmednuaman/grunt-scss-lint
+* Remove bower components from repo
+
 ##Requirments
 ---
 * [NodeJS](http://nodejs.org/)

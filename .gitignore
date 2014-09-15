@@ -2,5 +2,5 @@ node_modules/
 temp/
 _dist/
 _dev/
-bower_components/
+app/_bower_components/
 .sass-cache/
