@@ -4,7 +4,7 @@ module.exports = {
     stripBanners: true
   },
   develop: {
-    src: ['<%= pkg.config.src %>/js/libs/**/*','!<%= pkg.config.src %>/js/libs/modernizr-dev.js'],
+    src: ['<%= pkg.config.src %>/js/libs/**/*', '!<%= pkg.config.src %>/js/libs/modernizr-dev.js'],
     dest: '<%= pkg.config.dev %>/js/compiled.js'
   }
 };

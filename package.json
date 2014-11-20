@@ -18,6 +18,7 @@
     "grunt-grunticon": "~0.6.14",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-sass": "~0.8.1",
+    "grunt-scss-lint": "~0.3.3",
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-uglify": "~0.2.0",
@@ -27,16 +28,14 @@
     "time-grunt": "~0.2.8",
     "grunt-modernizr": "~0.5.2",
     "grunt-favicons": "~0.6.4",
-    "grunt-contrib-imagemin": "~0.8.1"
+    "grunt-contrib-imagemin": "~0.8.1",
+    "grunt-sass": "~0.16.1"
   },
   "licenses": [
     {
       "type": "MIT"
     }
   ],
-  "licenses": {
-    "MIT": true
-  },
   "config": {
     "grunt": "grunt",
     "src": "_source",

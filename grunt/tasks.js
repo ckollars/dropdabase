@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   'use strict';
 
   // Grunticon
@@ -12,7 +12,7 @@ module.exports = function(grunt) {
   grunt.registerTask(
     'serve',
     'Build a development (_dev) site with watch the comand running.',
-    ['sass:develop', 'concat:develop', 'copy:js', 'copy:images', 'watch' ]
+    ['scsslint:develop', 'sass:develop', 'concat:develop', 'copy:js', 'copy:images', 'watch' ]
   );
 
 };

@@ -4,10 +4,10 @@ module.exports = {
   },
   sass: {
     files: ['/scss/**/*.scss'],
-    tasks: ['sass:develop']
+    tasks: ['scsslint:develop', 'sass:develop']
   },
   js: {
-    files: ['/js/*.js','/js/lib/*.js'],
+    files: ['/js/*.js', '/js/lib/*.js'],
     tasks: ['concat:wp', 'copy:js']
   },
   assets: {
