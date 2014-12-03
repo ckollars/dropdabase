@@ -6,7 +6,7 @@ module.exports = {
   multiple_files: {
     expand: true,
     flatten: true,
-    src: '<%= paths.dist %>/css/*.css',
-    dest: '<%= paths.dist %>/css/'
+    src: '<%= pkg.config.dev %>/css/*.css',
+    dest: '<%= pkg.config.dev %>/css/'
   }
 };

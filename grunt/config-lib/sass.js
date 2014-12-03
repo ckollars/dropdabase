@@ -1,5 +1,5 @@
 module.exports = {
-  develop: {
+  build: {
     options: {
       style: 'expanded',
       debugInfo: true

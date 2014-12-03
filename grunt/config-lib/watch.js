@@ -3,19 +3,20 @@ module.exports = {
     livereload: true
   },
   sass: {
-    files: ['/scss/**/*.scss'],
-    tasks: ['scsslint:develop', 'sass:develop']
+    files: ['<%= pkg.config.src %>/scss/**/*.scss'],
+    tasks: ['build-styles']
   },
   js: {
-    files: ['/js/*.js', '/js/lib/*.js'],
-    tasks: ['concat:wp', 'copy:js']
+    files: ['<%= pkg.config.src %>/js/*.js', '<%= pkg.config.src %>/js/lib/*.js'],
+    tasks: ['build-scripts', 'copy-scripts']
   },
   assets: {
-    files: ['/images/**'],
+    files: ['<%= pkg.config.src %>/img/**'],
     tasks: ['copy:images']
-  },
-  svg: {
-    files: ['/svg/**'],
-    tasks: ['grunticon:icons', 'copy:grunticon']
   }
+  // TODO: implement new svg watch tastk
+  // svg: {
+  //   files: ['<%= pkg.config.src %>/svg/**'],
+  //   tasks: ['grunticon:icons', 'copy:grunticon']
+  // }
 };
